@@ -10,6 +10,7 @@ namespace TodoApp
     {
         Task<List<TodoItemDto>> GetListAsync();
         Task<TodoItemDto> CreateAsync(string text);
+        Task DeleteAsync(Guid id);
 
     }
 }
